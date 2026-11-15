@@ -77,6 +77,9 @@ GarmentCloth.CreateFrom SKM_Garment        （按名字模糊查找）
 
 > ⚠️ **为什么 Sim 网格要单独导一个 FBX**：UE 的骨骼网格 FBX 导入一次只吃一个 mesh，两个 mesh 放在同一个 FBX 里只会导入第一个。
 
+> 📖 **傻瓜式图文步骤教程（推荐先看这个）**：[`Docs/ChaosCloth_Tutorial_ZH.md`](Docs/ChaosCloth_Tutorial_ZH.md)
+> 从"空资产"一步步做到"人物身上跑布料"，含排错表和检查清单。
+
 ### 已经在 UE 里生成之后，还需要做什么（重要）
 
 5.8 的 Chaos Cloth Asset 几何来自 **Dataflow 图**，而 Dataflow 节点类的头文件在引擎的
